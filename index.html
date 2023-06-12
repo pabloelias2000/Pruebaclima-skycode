@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="top">
+        <h1>Weather App</h1>
+        <div class="details">
+          <div class="search">
+            <p class="showtext"></p>
+            <input
+              id="data"
+              type="text"
+              maxlength="15"
+              placeholder="type city name..."
+            />
+            <button id="submit">Show</button>
+          </div>
+          <div class="showWeather">
+            <img
+              src="./fotos/cloud.png"
+              alt="la imagen ilustra el tipo de clima en el lugar buscado"
+            />
+           
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="titles">
+          <p class="weather">Weather:</p>
+          <p class="temperature">Temperature:</p>
+          <p class="humidity">Humidity:</p>
+        </div>
+        <div class="scores">
+          <p class="dataWeather"></p>
+          <p class="dataTemperature"></p>
+          <p class="dataHumidity"></p>
+        </div>
+      </div>
+    </main>
+    <h1></h1>
+    <p id="name"> </p>
+    <p id="cloud"> </p>
+    <p id="description"> </p>
+    <p id="city"></p>
+    <p id="country"></p>
+    <p id="state"></p>
+    <p id="lat"></p>
+    <p id="long"></p>
+ <script src="/js/wheather.js"> </script>
+</body>
+</html>
